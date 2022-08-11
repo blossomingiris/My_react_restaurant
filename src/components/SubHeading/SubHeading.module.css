@@ -1,0 +1,21 @@
+/* repeating code */
+
+.subHeading {
+  margin-bottom: 1rem;
+  margin-top: 2em;
+}
+
+.subHeading p {
+  font-family: var(--font-cursive);
+  color: var(--color-blue);
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 35px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.spoon_img {
+  width: 50px;
+  opacity: 70%;
+}
