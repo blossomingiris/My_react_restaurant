@@ -81,8 +81,8 @@
 
 .navbar_login a:hover,
 .navbar_links li a:hover {
-  color: var(--color-coffee);
-  transition: 0.5s;
+  color: var(--color-golden);
+  transition: 0.8s;
 }
 
 .navbar_login a::before,
@@ -94,7 +94,7 @@
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: var(--color-coffee);
+  background-color: var(--color-golden);
   transform: scaleX(0);
   transition: transform 0.5s ease;
 }
@@ -177,10 +177,7 @@
 }
 
 .smallscreen_overlay .overlay_close:hover {
-  color: var(--color-coffee);
-}
-
-.flex_center {
+  color: var(--color-golden);
 }
 
 .navbar_smallscreen_links {
@@ -197,7 +194,7 @@
 }
 
 .navbar_smallscreen_links li:hover {
-  color: var(--color-coffee);
+  color: var(--color-golden);
 }
 
 @media screen and (max-width: 2000px) {

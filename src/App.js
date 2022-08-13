@@ -9,7 +9,7 @@ import {
   Gallery,
   Header,
   Intro,
-  Laurels,
+  PrivateDining,
   Menu,
 } from './container'
 import { Navbar } from './components'
@@ -22,9 +22,9 @@ const App = () => (
     <AboutUs />
     <Menu />
     <Chef />
-    {/* <Intro />
-    <Laurels />
-    <Gallery />
+    <Intro />
+    <PrivateDining />
+    {/* <Gallery />
     <FindUs />
     <Footer /> */}
   </div>

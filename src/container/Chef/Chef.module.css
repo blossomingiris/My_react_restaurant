@@ -34,6 +34,8 @@
 
 .p_description_custom {
   color: var(--color-golden);
+  line-height: normal;
+  padding: 5px 0;
 }
 
 .chef_sign {

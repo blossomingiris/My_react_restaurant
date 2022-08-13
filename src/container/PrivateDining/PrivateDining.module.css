@@ -1,0 +1,53 @@
+.private_dining_content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 3rem;
+  padding-bottom: 1em;
+}
+
+.wrapper_custom {
+  margin: 4em 2em;
+}
+
+.wrapper_image_custom {
+  width: 550px;
+  height: 550px;
+  margin: 20px 0;
+}
+
+.my_swiper {
+  width: 100%;
+}
+
+.swiper_slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.headtext_custom {
+  font-family: var(--font-header);
+  color: var(--color-golden);
+  font-size: 50px;
+  padding: 0;
+  text-transform: capitalize;
+  text-align: left;
+  padding-right: 50px;
+}
+
+.p_description_custom {
+  padding-right: 50px;
+}
+
+@media screen and (max-width: 650px) {
+  .wrapper_image_custom {
+    width: 300px;
+    height: 300px;
+  }
+
+  .headtext_custom {
+    font-size: 35px;
+    line-height: 48px;
+  }
+}

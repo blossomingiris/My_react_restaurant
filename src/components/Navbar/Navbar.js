@@ -21,10 +21,10 @@ function Navbar() {
           <a href='#about'>About Us</a>
         </li>
         <li className={styles.p_opensans}>
-          <a href='#menu'>Menu</a>
+          <a href='#menu'>Menus</a>
         </li>
         <li className={styles.p_opensans}>
-          <a href='#awards'>Our Awards</a>
+          <a href='#awards'>Private Dining</a>
         </li>
         <li className={styles.p_opensans}>
           <a href='#contacts'>Contacts Us</a>
@@ -37,7 +37,7 @@ function Navbar() {
           </a>
         </div>
         <a href='/' className={styles.p_opensans}>
-          Book table
+          Reservation
         </a>
       </div>
       <div className={styles.navbar_smallscreen}>
@@ -64,10 +64,10 @@ function Navbar() {
                 <a href='#about'>About Us</a>
               </li>
               <li className={styles.p_opensans}>
-                <a href='#menu'>Menu</a>
+                <a href='#menu'>Menus</a>
               </li>
               <li className={styles.p_opensans}>
-                <a href='#awards'>Our Awards</a>
+                <a href='#awards'>Private-Dining</a>
               </li>
               <li className={styles.p_opensans}>
                 <a href='#contacts'>Contacts Us</a>

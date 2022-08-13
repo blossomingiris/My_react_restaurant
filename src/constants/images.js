@@ -12,11 +12,16 @@ import spoon_left from '../assets/spoon_left.svg'
 import spoon_right from '../assets/spoon_right.svg'
 import hero from '../assets/hero.png'
 import findus from '../assets/findus.png'
-import laurels from '../assets/laurels.png'
+import private_dining from '../assets/private_dining.png'
 import award01 from '../assets/award01.png'
 import award02 from '../assets/award02.png'
 import award03 from '../assets/award03.png'
 import award05 from '../assets/award05.png'
+import slide01 from '../assets/slide01.png'
+import slide02 from '../assets/slide02.png'
+import slide03 from '../assets/slide03.png'
+import slide04 from '../assets/slide04.png'
+import slide05 from '../assets/slide05.png'
 import sign from '../assets/sign.png'
 import quote from '../assets/quote.png'
 import erato from '../assets/erato.png'
@@ -29,6 +34,11 @@ export default {
   gallery02,
   gallery03,
   gallery04,
+  slide01,
+  slide02,
+  slide03,
+  slide04,
+  slide05,
   knife,
   logo,
   menu,
@@ -37,7 +47,7 @@ export default {
   spoon_right,
   hero,
   findus,
-  laurels,
+  private_dining,
   award01,
   award02,
   award03,
