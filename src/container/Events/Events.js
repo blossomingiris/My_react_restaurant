@@ -15,7 +15,7 @@ function Events() {
         className={`wrapper section_padding ${styles.wrapper_custom}`}
         id='events'
       >
-        <div className='wrapper_info '>
+        <div className='wrapper_info'>
           <SubHeading title='events' />
           <h2 className={`headtext ${styles.headtext_custom}`}>
             Enjoy special moments in our private dining space

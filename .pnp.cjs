@@ -37,12 +37,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/react", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:13.3.0"],\
             ["@testing-library/user-event", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:13.5.0"],\
             ["animate.css", "npm:4.1.1"],\
+            ["leaflet", "npm:1.8.0"],\
             ["react", "npm:18.2.0"],\
             ["react-animation-on-scroll", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:5.1.0"],\
             ["react-dom", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:18.2.0"],\
             ["react-icons", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:4.4.0"],\
+            ["react-leaflet", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:4.0.1"],\
             ["react-scripts", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:5.0.1"],\
             ["react-slick", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:0.29.0"],\
+            ["slick-carousel", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:1.8.1"],\
             ["swiper", "npm:8.3.2"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
@@ -3633,10 +3636,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@npmcli/fs", [\
-        ["npm:2.1.1", {\
-          "packageLocation": "./.yarn/cache/@npmcli-fs-npm-2.1.1-2769242877-4944a0545d.zip/node_modules/@npmcli/fs/",\
+        ["npm:2.1.2", {\
+          "packageLocation": "./.yarn/cache/@npmcli-fs-npm-2.1.2-08d434e77b-405074965e.zip/node_modules/@npmcli/fs/",\
           "packageDependencies": [\
-            ["@npmcli/fs", "npm:2.1.1"],\
+            ["@npmcli/fs", "npm:2.1.2"],\
             ["@gar/promisify", "npm:1.1.3"],\
             ["semver", "npm:7.3.7"]\
           ],\
@@ -3644,10 +3647,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@npmcli/move-file", [\
-        ["npm:2.0.0", {\
-          "packageLocation": "./.yarn/cache/@npmcli-move-file-npm-2.0.0-d8bd1d35d2-1388777b50.zip/node_modules/@npmcli/move-file/",\
+        ["npm:2.0.1", {\
+          "packageLocation": "./.yarn/cache/@npmcli-move-file-npm-2.0.1-b593d8f741-52dc02259d.zip/node_modules/@npmcli/move-file/",\
           "packageDependencies": [\
-            ["@npmcli/move-file", "npm:2.0.0"],\
+            ["@npmcli/move-file", "npm:2.0.1"],\
             ["mkdirp", "npm:1.0.4"],\
             ["rimraf", "npm:3.0.2"]\
           ],\
@@ -3705,6 +3708,36 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "webpack-hot-middleware",\
             "webpack-plugin-serve",\
             "webpack"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@react-leaflet/core", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/@react-leaflet-core-npm-2.0.0-4d80ae1b0a-8528b05bb3.zip/node_modules/@react-leaflet/core/",\
+          "packageDependencies": [\
+            ["@react-leaflet/core", "npm:2.0.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8a25d8c89d3a03f406c2762a80fd5ae0dd64599ff0552a9a70ad30af3fd838b016c67378b111d009205335da2ac56dba6c91c0abfdfba79bd90f11f70792cf12#npm:2.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/@react-leaflet-core-virtual-126887a9d8/0/cache/@react-leaflet-core-npm-2.0.0-4d80ae1b0a-8528b05bb3.zip/node_modules/@react-leaflet/core/",\
+          "packageDependencies": [\
+            ["@react-leaflet/core", "virtual:8a25d8c89d3a03f406c2762a80fd5ae0dd64599ff0552a9a70ad30af3fd838b016c67378b111d009205335da2ac56dba6c91c0abfdfba79bd90f11f70792cf12#npm:2.0.0"],\
+            ["@types/leaflet", null],\
+            ["@types/react", null],\
+            ["@types/react-dom", null],\
+            ["leaflet", "npm:1.8.0"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/leaflet",\
+            "@types/react-dom",\
+            "@types/react",\
+            "leaflet",\
+            "react-dom",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6090,12 +6123,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["cacache", [\
-        ["npm:16.1.1", {\
-          "packageLocation": "./.yarn/cache/cacache-npm-16.1.1-84a00badf3-4885246170.zip/node_modules/cacache/",\
+        ["npm:16.1.2", {\
+          "packageLocation": "./.yarn/cache/cacache-npm-16.1.2-0d36d1aaf1-defe1d6f55.zip/node_modules/cacache/",\
           "packageDependencies": [\
-            ["cacache", "npm:16.1.1"],\
-            ["@npmcli/fs", "npm:2.1.1"],\
-            ["@npmcli/move-file", "npm:2.0.0"],\
+            ["cacache", "npm:16.1.2"],\
+            ["@npmcli/fs", "npm:2.1.2"],\
+            ["@npmcli/move-file", "npm:2.0.1"],\
             ["chownr", "npm:2.0.0"],\
             ["fs-minipass", "npm:2.1.0"],\
             ["glob", "npm:8.0.3"],\
@@ -6107,7 +6140,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minipass-pipeline", "npm:1.2.4"],\
             ["mkdirp", "npm:1.0.4"],\
             ["p-map", "npm:4.0.0"],\
-            ["promise-inflight", "virtual:84a00badf32fd1afaf93817400747915046d2012712b8d0165c9b380a8ca122b717268023cb7925f79b92bac1d0305a8c7f77f430ac0705ca3d110cd76516a4c#npm:1.0.1"],\
+            ["promise-inflight", "virtual:0d36d1aaf1ea7535b384d539e487e25585f01670d39e526a26c87bd6ae453b53f80523e2225c1e4f6cf72a268adf45b0dadbb848ac415cce860f97be8fff5230#npm:1.0.1"],\
             ["rimraf", "npm:3.0.2"],\
             ["ssri", "npm:9.0.1"],\
             ["tar", "npm:6.1.11"],\
@@ -10959,6 +10992,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["leaflet", [\
+        ["npm:1.8.0", {\
+          "packageLocation": "./.yarn/cache/leaflet-npm-1.8.0-ddadd4c971-4a27895d42.zip/node_modules/leaflet/",\
+          "packageDependencies": [\
+            ["leaflet", "npm:1.8.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["leven", [\
         ["npm:3.1.0", {\
           "packageLocation": "./.yarn/cache/leven-npm-3.1.0-b7697736a3-638401d534.zip/node_modules/leven/",\
@@ -11200,12 +11242,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["make-fetch-happen", [\
-        ["npm:10.2.0", {\
-          "packageLocation": "./.yarn/cache/make-fetch-happen-npm-10.2.0-1f4b459b17-2f6c294179.zip/node_modules/make-fetch-happen/",\
+        ["npm:10.2.1", {\
+          "packageLocation": "./.yarn/cache/make-fetch-happen-npm-10.2.1-f1cc7cd2df-2332eb9a8e.zip/node_modules/make-fetch-happen/",\
           "packageDependencies": [\
-            ["make-fetch-happen", "npm:10.2.0"],\
+            ["make-fetch-happen", "npm:10.2.1"],\
             ["agentkeepalive", "npm:4.2.1"],\
-            ["cacache", "npm:16.1.1"],\
+            ["cacache", "npm:16.1.2"],\
             ["http-cache-semantics", "npm:4.1.0"],\
             ["http-proxy-agent", "npm:5.0.0"],\
             ["https-proxy-agent", "npm:5.0.1"],\
@@ -11563,12 +11605,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/react", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:13.3.0"],\
             ["@testing-library/user-event", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:13.5.0"],\
             ["animate.css", "npm:4.1.1"],\
+            ["leaflet", "npm:1.8.0"],\
             ["react", "npm:18.2.0"],\
             ["react-animation-on-scroll", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:5.1.0"],\
             ["react-dom", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:18.2.0"],\
             ["react-icons", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:4.4.0"],\
+            ["react-leaflet", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:4.0.1"],\
             ["react-scripts", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:5.0.1"],\
             ["react-slick", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:0.29.0"],\
+            ["slick-carousel", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:1.8.1"],\
             ["swiper", "npm:8.3.2"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
@@ -11639,7 +11684,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["env-paths", "npm:2.2.1"],\
             ["glob", "npm:7.2.3"],\
             ["graceful-fs", "npm:4.2.10"],\
-            ["make-fetch-happen", "npm:10.2.0"],\
+            ["make-fetch-happen", "npm:10.2.1"],\
             ["nopt", "npm:5.0.0"],\
             ["npmlog", "npm:6.0.2"],\
             ["rimraf", "npm:3.0.2"],\
@@ -13999,10 +14044,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:84a00badf32fd1afaf93817400747915046d2012712b8d0165c9b380a8ca122b717268023cb7925f79b92bac1d0305a8c7f77f430ac0705ca3d110cd76516a4c#npm:1.0.1", {\
-          "packageLocation": "./.yarn/__virtual__/promise-inflight-virtual-19d408057d/0/cache/promise-inflight-npm-1.0.1-5bb925afac-2274948309.zip/node_modules/promise-inflight/",\
+        ["virtual:0d36d1aaf1ea7535b384d539e487e25585f01670d39e526a26c87bd6ae453b53f80523e2225c1e4f6cf72a268adf45b0dadbb848ac415cce860f97be8fff5230#npm:1.0.1", {\
+          "packageLocation": "./.yarn/__virtual__/promise-inflight-virtual-38e28ab2c4/0/cache/promise-inflight-npm-1.0.1-5bb925afac-2274948309.zip/node_modules/promise-inflight/",\
           "packageDependencies": [\
-            ["promise-inflight", "virtual:84a00badf32fd1afaf93817400747915046d2012712b8d0165c9b380a8ca122b717268023cb7925f79b92bac1d0305a8c7f77f430ac0705ca3d110cd76516a4c#npm:1.0.1"],\
+            ["promise-inflight", "virtual:0d36d1aaf1ea7535b384d539e487e25585f01670d39e526a26c87bd6ae453b53f80523e2225c1e4f6cf72a268adf45b0dadbb848ac415cce860f97be8fff5230#npm:1.0.1"],\
             ["@types/bluebird", null],\
             ["bluebird", null]\
           ],\
@@ -14327,6 +14372,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/react-is-npm-18.2.0-0cc5edb910-e72d0ba81b.zip/node_modules/react-is/",\
           "packageDependencies": [\
             ["react-is", "npm:18.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-leaflet", [\
+        ["npm:4.0.1", {\
+          "packageLocation": "./.yarn/cache/react-leaflet-npm-4.0.1-d53eae2847-f5e94c0e3b.zip/node_modules/react-leaflet/",\
+          "packageDependencies": [\
+            ["react-leaflet", "npm:4.0.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:4.0.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-leaflet-virtual-8a25d8c89d/0/cache/react-leaflet-npm-4.0.1-d53eae2847-f5e94c0e3b.zip/node_modules/react-leaflet/",\
+          "packageDependencies": [\
+            ["react-leaflet", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:4.0.1"],\
+            ["@react-leaflet/core", "virtual:8a25d8c89d3a03f406c2762a80fd5ae0dd64599ff0552a9a70ad30af3fd838b016c67378b111d009205335da2ac56dba6c91c0abfdfba79bd90f11f70792cf12#npm:2.0.0"],\
+            ["@types/leaflet", null],\
+            ["@types/react", null],\
+            ["@types/react-dom", null],\
+            ["leaflet", "npm:1.8.0"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/leaflet",\
+            "@types/react-dom",\
+            "@types/react",\
+            "leaflet",\
+            "react-dom",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -15197,6 +15273,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/slash-npm-4.0.0-ce4bbc4a80-da8e4af737.zip/node_modules/slash/",\
           "packageDependencies": [\
             ["slash", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["slick-carousel", [\
+        ["npm:1.8.1", {\
+          "packageLocation": "./.yarn/cache/slick-carousel-npm-1.8.1-8382d373c2-acaad391e4.zip/node_modules/slick-carousel/",\
+          "packageDependencies": [\
+            ["slick-carousel", "npm:1.8.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:1.8.1", {\
+          "packageLocation": "./.yarn/__virtual__/slick-carousel-virtual-116c6ae8a7/0/cache/slick-carousel-npm-1.8.1-8382d373c2-acaad391e4.zip/node_modules/slick-carousel/",\
+          "packageDependencies": [\
+            ["slick-carousel", "virtual:7a6615598f8921c54ed3b7f7a58c7da54652c574938568cdbc135750d21f37c12b629020a38edadadb9d933346f75e86057b64b7a6fd5274f2e522e07ceaecb6#npm:1.8.1"],\
+            ["@types/jquery", null],\
+            ["jquery", null]\
+          ],\
+          "packagePeers": [\
+            "@types/jquery",\
+            "jquery"\
           ],\
           "linkType": "HARD"\
         }]\

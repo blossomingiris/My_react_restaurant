@@ -5,9 +5,6 @@
   align-items: center;
   background-color: var(--color-white);
   padding: 0.8em 1.8rem;
-}
-
-.navbar {
   -webkit-animation-name: animatenavbar;
   -webkit-animation-duration: 1s;
   animation-name: animatenavbar;
@@ -64,6 +61,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  text-align: center;
+  vertical-align: center;
 }
 
 .navbar_links li a {
@@ -227,8 +226,22 @@
   .navbar_login {
     display: none;
   }
+
   .navbar_logo {
     width: 120px;
     justify-content: center;
+  }
+
+  .navbar_logo img {
+    width: 100%;
+  }
+
+  .p_discription_custom {
+    font-size: 14px;
+  }
+
+  .navbar_contacts a {
+    margin: 0 0.4em;
+    align-self: center;
   }
 }

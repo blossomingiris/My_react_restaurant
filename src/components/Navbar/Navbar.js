@@ -30,12 +30,10 @@ function Navbar() {
         </li>
       </ul>
       <div className={styles.navbar_contacts}>
-        <div>
-          <a href='#reservation' className={styles.p_discription_custom}>
-            Reservation
-          </a>
-        </div>
-        <a href='/' className={styles.p_discription_custom}>
+        <a href='#reservation' className={styles.p_discription_custom}>
+          Reservation
+        </a>
+        <a href='#contacts' className={styles.p_discription_custom}>
           Contact Us
         </a>
       </div>
