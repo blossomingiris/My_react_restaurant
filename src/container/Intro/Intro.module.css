@@ -3,6 +3,7 @@
   width: 100vw;
   position: relative;
   overflow: hidden;
+  margin-top: 3rem;
 }
 
 .app_video video {

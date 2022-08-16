@@ -1,6 +1,3 @@
-import React from 'react'
-import 'animate.css/animate.min.css'
-
 import {
   AboutUs,
   Chef,
@@ -9,10 +6,12 @@ import {
   Gallery,
   Header,
   Intro,
-  PrivateDining,
+  Events,
   Menu,
 } from './container'
 import { Navbar } from './components'
+import React from 'react'
+import 'animate.css/animate.min.css'
 import './App.css'
 
 const App = () => (
@@ -23,10 +22,10 @@ const App = () => (
     <Menu />
     <Chef />
     <Intro />
-    <PrivateDining />
-    {/* <Gallery />
-    <FindUs />
-    <Footer /> */}
+    <Events />
+    <Gallery />
+    {/* <FindUs /> */}
+    <Footer />
   </div>
 )
 

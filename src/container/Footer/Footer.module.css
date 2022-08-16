@@ -1,0 +1,122 @@
+.footer {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--color-blue);
+  padding-top: 0;
+  padding: 2rem 6rem;
+  margin-top: 4rem;
+}
+
+.footer_links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 3rem;
+  padding: 0 2rem;
+}
+
+.footer_links_contacts,
+.footer_links_icons,
+.footer_links_working_hours {
+  flex: 1;
+  margin: 1rem;
+  text-align: center;
+}
+
+.footer_links_icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_links_icons img {
+  width: 250px;
+  margin-bottom: 2rem;
+}
+
+.footer_links_working_hours p:nth-child(2n + 1) {
+  margin-bottom: 1rem;
+}
+
+.footer_links_icons_social_media {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.footer_links_icons_social_media svg {
+  color: var(--color-cream);
+  margin: 0.5rem;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.footer_links_icons_social_media svg:hover {
+  color: var(--color-golden);
+  transition: 0.5s ease;
+}
+
+.p_description_custom,
+.p_description_special {
+  color: var(--color-cream);
+  letter-spacing: 0.04em;
+}
+
+.p_description_special {
+  font-size: 16px;
+}
+
+.footer_links_working_hours > * {
+  color: var(--color-cream);
+  letter-spacing: 0.04em;
+}
+
+.footer_headtext {
+  color: var(--color-golden);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 1rem;
+}
+
+.copyright {
+  color: var(--color-golden);
+  margin-top: 0.5rem;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+}
+
+@media screen and (min-width: 2000px) {
+}
+
+@media screen and (max-width: 1150px) {
+  .footer_links {
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer {
+    padding: 0 0 2rem 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .footer_links {
+    margin-top: 0;
+  }
+
+  .footer_links_icons img {
+    width: 80%;
+  }
+}

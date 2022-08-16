@@ -3,11 +3,10 @@
   flex-direction: column;
   width: 100%;
   margin-top: 3rem;
-  padding-bottom: 1em;
 }
 
 .wrapper_custom {
-  margin: 4em 2em;
+  margin: 3em 2em 0 2em;
 }
 
 .wrapper_image_custom {
@@ -48,6 +47,10 @@
 
   .headtext_custom {
     font-size: 35px;
-    line-height: 48px;
+    padding: 0;
+  }
+
+  .p_description_custom {
+    padding-right: 0px;
   }
 }

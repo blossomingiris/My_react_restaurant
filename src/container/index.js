@@ -5,17 +5,7 @@ import Footer from './Footer/Footer'
 import Gallery from './Gallery/Gallery'
 import Header from './Header/Header'
 import Intro from './Intro/Intro'
-import PrivateDining from './PrivateDining/PrivateDining'
+import Events from './PrivateDining/Events'
 import Menu from './Menu/Menu'
 
-export {
-  AboutUs,
-  Chef,
-  FindUs,
-  Footer,
-  Gallery,
-  Header,
-  Intro,
-  PrivateDining,
-  Menu,
-}
+export { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Events, Menu }

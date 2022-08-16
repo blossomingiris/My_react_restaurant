@@ -7,14 +7,14 @@ import { useRef } from 'react'
 import 'swiper/css'
 import 'swiper/css/effect-fade'
 import 'swiper/css/navigation'
-import styles from './PrivateDining.module.css'
+import styles from './Events.module.css'
 
-function PrivateDining() {
+function Events() {
   return (
     <AnimationOnScroll animateIn='animate__fadeInLeftBig' duration='1.5'>
       <div className={`wrapper section_padding ${styles.wrapper_custom}`}>
         <div className='wrapper_info '>
-          <SubHeading title='private dining' />
+          <SubHeading title='events' />
           <h2 className={`headtext ${styles.headtext_custom}`}>
             Enjoy special moments in our private dining space
           </h2>
@@ -91,4 +91,4 @@ function PrivateDining() {
   )
 }
 
-export default PrivateDining
+export default Events
