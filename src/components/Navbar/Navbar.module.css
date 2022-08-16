@@ -60,7 +60,7 @@
   cursor: pointer;
 }
 
-.navbar_login {
+.navbar_contacts {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -71,7 +71,7 @@
   padding: 7px 0;
 }
 
-.navbar_login a {
+.navbar_contacts a {
   color: var(--color-blue);
   margin: 0 1em;
   position: relative;
@@ -79,13 +79,13 @@
   padding: 7px 0;
 }
 
-.navbar_login a:hover,
+.navbar_contacts a:hover,
 .navbar_links li a:hover {
   color: var(--color-golden);
   transition: 0.8s;
 }
 
-.navbar_login a::before,
+.navbar_contacts a::before,
 .navbar_links li a::before {
   content: '';
   position: absolute;
@@ -99,7 +99,7 @@
   transition: transform 0.5s ease;
 }
 
-.navbar_login a:hover::before,
+.navbar_contacts a:hover::before,
 .navbar_links li a:hover::before {
   transform: scaleX(0.9);
   color: var(--color-golden);
@@ -197,9 +197,14 @@
   color: var(--color-golden);
 }
 
-@media screen and (max-width: 2000px) {
+.p_discription_custom {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 2000px) {
   .navbar_logo {
-    width: 200px;
+    width: 250px;
   }
 }
 

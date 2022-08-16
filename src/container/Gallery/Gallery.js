@@ -30,7 +30,7 @@ function Gallery() {
 
   return (
     <AnimationOnScroll animateIn='animate__fadeInLeftBig' duration='1.5'>
-      <div className={`${styles.gallery} flex_center`}>
+      <div className={`${styles.gallery} flex_center`} id='gallery'>
         <div className={styles.gallery_content}>
           <SubHeading title='Our instagram' />
           <h1 className={`headtext ${styles.headtext_custom}`}>

@@ -13,30 +13,30 @@ function Navbar() {
         <img src={images.erato} alt='restaurant logo' />
       </div>
       <ul className={styles.navbar_links}>
-        <li className='p_discriiption'>
+        <li className={styles.p_discription_custom}>
           <a href='#home'>Home</a>
         </li>
-        <li className='p_discriiption'>
+        <li className={styles.p_discription_custom}>
           <a href='#about'>About Us</a>
         </li>
-        <li className='p_discriiption'>
-          <a href='#menu'>Menus</a>
+        <li className={styles.p_discription_custom}>
+          <a href='#menus'>Menus</a>
         </li>
-        <li className='p_discriiption'>
-          <a href='#awards'>Events</a>
+        <li className={styles.p_discription_custom}>
+          <a href='#events'>Events</a>
         </li>
-        <li className='p_discriiption'>
-          <a href='#contacts'>Contacts Us</a>
+        <li className={styles.p_discription_custom}>
+          <a href='#gallery'>Our Gallery</a>
         </li>
       </ul>
-      <div className={styles.navbar_login}>
+      <div className={styles.navbar_contacts}>
         <div>
-          <a href='#login' className='p_discriiption'>
-            Login In /Register
+          <a href='#reservation' className={styles.p_discription_custom}>
+            Reservation
           </a>
         </div>
-        <a href='/' className='p_discriiption'>
-          Reservation
+        <a href='/' className={styles.p_discription_custom}>
+          Contact Us
         </a>
       </div>
       <div className={styles.navbar_smallscreen}>
@@ -56,20 +56,20 @@ function Navbar() {
               <img src={images.erato} alt='restaurant logo' />
             </div>
             <ul className={styles.navbar_smallscreen_links}>
-              <li className='p_discriiption'>
+              <li className='p_discription'>
                 <a href='#home'>Home</a>
               </li>
-              <li className='p_discriiption'>
+              <li className='p_discription'>
                 <a href='#about'>About Us</a>
               </li>
-              <li className='p_discriiption'>
-                <a href='#menu'>Menus</a>
+              <li className='p_discription'>
+                <a href='#menus'>Menus</a>
               </li>
-              <li className='p_discriiption'>
-                <a href='#awards'>Private-Dining</a>
+              <li className='p_discription'>
+                <a href='#events'>Private-Dining</a>
               </li>
-              <li className='p_discriiption'>
-                <a href='#contacts'>Contacts Us</a>
+              <li className='p_discription'>
+                <a href='#gallery'>Gallery</a>
               </li>
             </ul>
           </div>

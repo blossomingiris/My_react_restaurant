@@ -3,7 +3,6 @@ import { SubHeading } from '../../components'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Navigation, EffectFade } from 'swiper'
-import { useRef } from 'react'
 import 'swiper/css'
 import 'swiper/css/effect-fade'
 import 'swiper/css/navigation'
@@ -12,7 +11,10 @@ import styles from './Events.module.css'
 function Events() {
   return (
     <AnimationOnScroll animateIn='animate__fadeInLeftBig' duration='1.5'>
-      <div className={`wrapper section_padding ${styles.wrapper_custom}`}>
+      <div
+        className={`wrapper section_padding ${styles.wrapper_custom}`}
+        id='events'
+      >
         <div className='wrapper_info '>
           <SubHeading title='events' />
           <h2 className={`headtext ${styles.headtext_custom}`}>
