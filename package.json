@@ -43,5 +43,8 @@
   },
   "devDependencies": {
     "netlify-cli": "^10.17.8"
+  },
+  "engines": {
+    "yarn": "YARN NO LONGER USED - use npm instead."
   }
 }
