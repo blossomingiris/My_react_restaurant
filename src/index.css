@@ -29,6 +29,10 @@ body {
   overflow-x: hidden;
 }
 
+.main_wrapper {
+  position: relative;
+}
+
 .flex_center {
   display: flex;
   justify-content: center;
