@@ -1,5 +1,5 @@
 {
-  "homepage": "http://blossomingiris.github.io/react_restaurant",
+  "homepage": "https://blossomingiris.github.io/",
   "name": "my-restaurant",
   "version": "0.1.0",
   "private": true,
@@ -20,8 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "set \"CI=false\" && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
