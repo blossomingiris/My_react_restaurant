@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/my-react-restaurant/static/css/main.414cb811.css",
+    "main.js": "/my-react-restaurant/static/js/main.8432419b.js",
+    "static/media/meal.mp4": "/my-react-restaurant/static/media/meal.08c54f44f026b906ab82.mp4",
+    "static/media/menu.png": "/my-react-restaurant/static/media/menu.f1ef9e006dcdc3219697.png",
+    "static/media/gallery04.png": "/my-react-restaurant/static/media/gallery04.ca64417276a2aa73bb50.png",
+    "static/media/findus.png": "/my-react-restaurant/static/media/findus.585c393ccd3671513743.png",
+    "static/media/gallery06.png": "/my-react-restaurant/static/media/gallery06.267dfbe2751b253a4b68.png",
+    "static/media/gallery05.png": "/my-react-restaurant/static/media/gallery05.b2f98fb38b3becd20f80.png",
+    "static/media/gallery03.png": "/my-react-restaurant/static/media/gallery03.3c652b20c151a7a98d78.png",
+    "static/media/gallery02.png": "/my-react-restaurant/static/media/gallery02.d15b4b776ccdbaa0c8fd.png",
+    "static/media/gallery07.png": "/my-react-restaurant/static/media/gallery07.067636ccdfe878af3bdb.png",
+    "static/media/gallery01.png": "/my-react-restaurant/static/media/gallery01.69a509d4ddb7a1c9ec4c.png",
+    "static/media/slide05.png": "/my-react-restaurant/static/media/slide05.99859651ba8bbe233679.png",
+    "static/media/slide04.png": "/my-react-restaurant/static/media/slide04.fdc42b23aa7d112f0976.png",
+    "static/media/slide03.png": "/my-react-restaurant/static/media/slide03.44afa7cce1ef93f7bd16.png",
+    "static/media/slide01.png": "/my-react-restaurant/static/media/slide01.fdc891b6e5d342052933.png",
+    "static/media/slide02.png": "/my-react-restaurant/static/media/slide02.01099ab318a09789b35c.png",
+    "static/media/chef.png": "/my-react-restaurant/static/media/chef.190ba19da78bc794d06e.png",
+    "static/media/hero.png": "/my-react-restaurant/static/media/hero.3ee03811f7b0571e0a7d.png",
+    "static/media/knife.png": "/my-react-restaurant/static/media/knife.1121c0a5afb62acb31cb.png",
+    "static/media/wine.png": "/my-react-restaurant/static/media/wine.c75c8b9dc7defc8c67c8.png",
+    "static/media/spoon_left.svg": "/my-react-restaurant/static/media/spoon_left.bb2485932a9323213c564e3bb1cd1839.svg",
+    "static/media/spoon_right.svg": "/my-react-restaurant/static/media/spoon_right.13f1f614b32a1c029ce107a45cf06894.svg",
+    "static/media/sign.png": "/my-react-restaurant/static/media/sign.c5ec6278fd8a30ff1c4c.png",
+    "static/media/eratoReverse.png": "/my-react-restaurant/static/media/eratoReverse.f5de7445ca35ad367c11.png",
+    "static/media/erato.png": "/my-react-restaurant/static/media/erato.d878e585dcf40f6ef444.png",
+    "index.html": "/my-react-restaurant/index.html",
+    "main.414cb811.css.map": "/my-react-restaurant/static/css/main.414cb811.css.map",
+    "main.8432419b.js.map": "/my-react-restaurant/static/js/main.8432419b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.414cb811.css",
+    "static/js/main.8432419b.js"
+  ]
+}
