@@ -1,6 +1,7 @@
 import { Newsletter } from '../../components'
 import { FiFacebook, FiInstagram } from 'react-icons/fi'
 import { FaTripadvisor } from 'react-icons/fa'
+import { BsStars } from 'react-icons/bs'
 import styles from './Footer.module.css'
 import { images } from '../../constants'
 
@@ -53,7 +54,9 @@ function Footer() {
           href='/https://github.com/blossomingiris?tab=repositories'
           target='_blank'
         >
-          <p>Create by Xenia Rachouti</p>
+          <p>
+            Created with <BsStars /> by Xenia Rachouti
+          </p>
         </a>
       </div>
     </div>

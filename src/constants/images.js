@@ -23,6 +23,7 @@ import quote from '../assets/quote.png'
 import erato from '../assets/erato.png'
 import eratoReverse from '../assets/eratoReverse.png'
 import wine from '../assets/wine.png'
+import reservation from '../assets/reservation.png'
 
 export default {
   chef,
@@ -39,6 +40,7 @@ export default {
   gallery07,
   knife,
   menu,
+  reservation,
   sign,
   slide01,
   slide02,

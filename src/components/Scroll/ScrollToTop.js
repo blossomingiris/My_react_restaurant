@@ -2,10 +2,6 @@ import { useEffect, useState } from 'react'
 import styles from './ScrollToTop.module.css'
 import { BsArrowUp } from 'react-icons/bs'
 
-const ClassNames = (...classes) => {
-  return classes.filter(Boolean).join('')
-}
-
 const ScrollToTop = () => {
   const [isVisable, setIsVisable] = useState(false)
 

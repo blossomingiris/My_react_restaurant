@@ -1,11 +1,18 @@
 import { useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { MdOutlineRestaurantMenu } from 'react-icons/md'
+
 import images from '../../constants/images'
+import Reservation from '../Reservation/Reservation'
 import styles from './Navbar.module.css'
 
 function Navbar() {
-  const [toggleMenu, setToggleMenu] = useState('false')
+  const [toggleMenu, setToggleMenu] = useState(false)
+  const [toggleReservation, setToggleReservation] = useState(false)
+
+  function closeModalHandler() {
+    setToggleReservation(false)
+  }
 
   return (
     <nav className={styles.navbar}>
@@ -30,13 +37,18 @@ function Navbar() {
         </li>
       </ul>
       <div className={styles.navbar_contacts}>
-        <a href='#reservation' className={styles.p_discription_custom}>
+        <a
+          href='#reservation'
+          className={styles.p_discription_custom}
+          onClick={() => setToggleReservation(true)}
+        >
           Reservation
         </a>
         <a href='#contacts' className={styles.p_discription_custom}>
           Contact Us
         </a>
       </div>
+      {toggleReservation ? <Reservation onCancel={closeModalHandler} /> : null}
       <div className={styles.navbar_smallscreen}>
         <GiHamburgerMenu
           className={styles.hamburger_menu_icon}
@@ -44,7 +56,7 @@ function Navbar() {
         />
         {toggleMenu && (
           <div
-            className={`${styles.smallscreen_overlay} ${styles.flex_center} ${styles.slide_buttom}`}
+            className={`${styles.smallscreen_overlay} ${styles.flex_center} ${styles.slide_button}`}
           >
             <MdOutlineRestaurantMenu
               className={styles.overlay_close}

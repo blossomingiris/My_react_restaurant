@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react'
+import { useRef } from 'react'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import { SubHeading } from '../../components'
 import { images } from '../../constants'
