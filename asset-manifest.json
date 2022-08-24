@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-react-restaurant/static/css/main.93acdf2f.css",
-    "main.js": "/my-react-restaurant/static/js/main.78732da6.js",
+    "main.css": "/my-react-restaurant/static/css/main.7124a318.css",
+    "main.js": "/my-react-restaurant/static/js/main.9af958fe.js",
     "static/media/meal.mp4": "/my-react-restaurant/static/media/meal.08c54f44f026b906ab82.mp4",
     "static/media/menu.png": "/my-react-restaurant/static/media/menu.f1ef9e006dcdc3219697.png",
     "static/media/gallery04.png": "/my-react-restaurant/static/media/gallery04.ca64417276a2aa73bb50.png",
@@ -28,11 +28,11 @@
     "static/media/eratoReverse.png": "/my-react-restaurant/static/media/eratoReverse.f5de7445ca35ad367c11.png",
     "static/media/erato.png": "/my-react-restaurant/static/media/erato.d878e585dcf40f6ef444.png",
     "index.html": "/my-react-restaurant/index.html",
-    "main.93acdf2f.css.map": "/my-react-restaurant/static/css/main.93acdf2f.css.map",
-    "main.78732da6.js.map": "/my-react-restaurant/static/js/main.78732da6.js.map"
+    "main.7124a318.css.map": "/my-react-restaurant/static/css/main.7124a318.css.map",
+    "main.9af958fe.js.map": "/my-react-restaurant/static/js/main.9af958fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.93acdf2f.css",
-    "static/js/main.78732da6.js"
+    "static/css/main.7124a318.css",
+    "static/js/main.9af958fe.js"
   ]
 }
