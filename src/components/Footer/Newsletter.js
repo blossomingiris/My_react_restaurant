@@ -7,7 +7,9 @@ function Newsletter() {
         <h1 className={`headtext ${styles.headtext_custom}`}>
           Subscribe to our Newsletters
         </h1>
-        <p className={`p_description ${styles.p_description_custom}`}>And never miss our latest updates!</p>
+        <p className={`p_description ${styles.p_description_custom}`}>
+          And be the first to know about our updates
+        </p>
       </div>
       <div className={`${styles.newsletter_input} flex_center`}>
         <input type='email' placeholder='Enter your email address' />

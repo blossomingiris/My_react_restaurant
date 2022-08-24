@@ -34,13 +34,13 @@
 
 .p_description_custom {
   color: var(--color-golden);
-  line-height: normal;
+  line-height: 25px;
   padding: 5px 0;
 }
 
 .chef_sign {
   display: flex;
-  gap: 7em;
+  gap: 5em;
   align-items: center;
   justify-content: space-between;
 }

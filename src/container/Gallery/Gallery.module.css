@@ -126,12 +126,17 @@
 
 @media screen and (max-width: 650px) {
   .gallery {
-    padding: 0 0 4rem 2rem;
+    padding: 0 0 1rem 2rem;
   }
   .gallery_content {
     min-width: 100%;
-    padding: 0 3rem 0 1.5rem;
+    padding: 0 2rem 0 0rem;
   }
+
+  .gallery_images {
+    margin: 2rem;
+  }
+
   .gallery_images_card {
     min-width: 240px;
     height: 320px;

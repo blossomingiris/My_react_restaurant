@@ -54,12 +54,12 @@
 
 @media screen and (max-width: 450px) {
   .section_padding_custom {
-    padding: 0 3rem;
+    padding: 0 2rem;
   }
 
   .map_wrapper {
-    align-self: center;
-    width: 250px;
+    margin-top: 1.5rem;
+    width: 300px;
     height: 300px;
   }
 
@@ -67,24 +67,3 @@
     font-size: 40px;
   }
 }
-
-/* @media screen and (max-width: 1150px) {
-  .section_padding_custom {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-right: 6rem;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  .map_wrapper {
-    align-self: center;
-    justify-self: center;
-    width: 450px;
-    height: 450px;
-  }
-
- 
-
-*/

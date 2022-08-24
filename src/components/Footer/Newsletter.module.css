@@ -80,9 +80,13 @@
   .newsletter_input input {
     margin-top: 1rem;
   }
+
+  .newsletter {
+    padding-left: 2rem;
+  }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
   .newsletter_heading h1 {
     font-size: 32px;
     line-height: 50px;

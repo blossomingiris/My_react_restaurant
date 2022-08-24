@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-scroll'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { MdOutlineRestaurantMenu } from 'react-icons/md'
 
@@ -21,19 +22,64 @@ function Navbar() {
       </div>
       <ul className={styles.navbar_links}>
         <li className={styles.p_discription_custom}>
-          <a href='#home'>Home</a>
+          <Link
+            activeClass='active'
+            to='home'
+            spy={true}
+            smooth={true}
+            offset={10}
+            duration={500}
+          >
+            Home
+          </Link>
         </li>
         <li className={styles.p_discription_custom}>
-          <a href='#about'>About Us</a>
+          <Link
+            activeClass='active'
+            to='about'
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            About us
+          </Link>
         </li>
         <li className={styles.p_discription_custom}>
-          <a href='#menus'>Menus</a>
+          <Link
+            activeClass='active'
+            to='menus'
+            spy={true}
+            smooth={true}
+            offset={100}
+            duration={500}
+          >
+            Menus
+          </Link>
         </li>
         <li className={styles.p_discription_custom}>
-          <a href='#events'>Events</a>
+          <Link
+            activeClass='active'
+            to='events'
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Events
+          </Link>
         </li>
         <li className={styles.p_discription_custom}>
-          <a href='#gallery'>Our Gallery</a>
+          <Link
+            activeClass='active'
+            to='gallery'
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            Gallery
+          </Link>
         </li>
       </ul>
       <div className={styles.navbar_contacts}>
@@ -44,9 +90,17 @@ function Navbar() {
         >
           Reservation
         </a>
-        <a href='#contacts' className={styles.p_discription_custom}>
+        <Link
+          activeClass='active'
+          to='contacts'
+          spy={true}
+          smooth={true}
+          offset={130}
+          duration={500}
+          className={styles.p_discription_custom}
+        >
           Contact Us
-        </a>
+        </Link>
       </div>
       {toggleReservation ? <Reservation onCancel={closeModalHandler} /> : null}
       <div className={styles.navbar_smallscreen}>

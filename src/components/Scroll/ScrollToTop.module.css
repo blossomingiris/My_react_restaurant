@@ -21,3 +21,16 @@
   color: var(--color-golden);
   font-size: 22px;
 }
+
+.arrow:hover {
+  background: var(--color-golden);
+}
+
+.arrow:hover .arrow_icon {
+  background: var(--color-golden);
+  color: var(--color-white);
+}
+
+/* .arrow_icon:hover {
+  color: var(--color-white);
+} */
