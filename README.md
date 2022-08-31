@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/102720711/187640321-d2f07bed-87c5-4cce-b33a-c1819b15090a.png" width="500" height="300" align="right" /> 
+<img src="https://user-images.githubusercontent.com/102720711/187640321-d2f07bed-87c5-4cce-b33a-c1819b15090a.png" width="600" height="450" align="right" /> 
 
 ## Restaurant home-page 
 
