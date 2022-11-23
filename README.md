@@ -1,6 +1,6 @@
 ## SPA for restaurant (React) :spaghetti:
 
-:heavy_check_mark: built with HTML, CSS and React </br>
+:heavy_check_mark: frontend project built with HTML, CSS and React </br>
 Extra libraries: 
 - leaflet (for interactive map)
 - react-scroll (for animation on scroll)
