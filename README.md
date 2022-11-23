@@ -1,7 +1,6 @@
-## Restaurant homepage (ReactJS) :spaghetti:
+## Restaurant website (React) :spaghetti:
 
-:heavy_check_mark: responsive web-page with a classic and elegant design </br>
-:heavy_check_mark: built with ReactJS </br>
+:heavy_check_mark: built with HTML, CSS and React </br>
 :heavy_check_mark: [link to demo](https://blossomingiris.github.io/my-react-restaurant/) </br>
 
 ##
