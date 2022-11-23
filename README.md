@@ -1,7 +1,7 @@
 ## Website for restaurant (React) :spaghetti:
 
 :heavy_check_mark: built with HTML, CSS and React </br>
-:heavy_check_mark: [link to demo](https://blossomingiris.github.io/my-react-restaurant/) </br>
+:heavy_check_mark: demo is [here](https://blossomingiris.github.io/my-react-restaurant/) </br>
 
 ##
 
