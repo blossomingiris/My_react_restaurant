@@ -144,6 +144,10 @@
 }
 
 @media screen and (max-width: 650px) {
+  .menu_description {
+    margin: 0;
+  }
+
   .menu_description_img img {
     width: 250px;
     margin: 0;
@@ -151,7 +155,7 @@
   }
 
   .img_wine {
-    bottom: 37%;
+    bottom: 35%;
     right: 20%;
   }
 
@@ -172,5 +176,6 @@
   .p_text {
     font-size: 25px;
     margin: 0;
+    padding-top: 15px;
   }
 }

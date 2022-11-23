@@ -61,4 +61,26 @@ const foods = [
   },
 ]
 
-export default { drinks, foods }
+const reserveDays = [
+  'Select day',
+  'Sunday',
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday',
+]
+
+const reserveHours = [
+  'Select hour',
+  '10:00',
+  '12:00',
+  '16:00',
+  '14:00',
+  '18:00',
+  '20:00',
+  '22:00',
+]
+
+export default { drinks, foods, reserveDays, reserveHours }

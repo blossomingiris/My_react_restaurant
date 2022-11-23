@@ -2,24 +2,23 @@ import { AnimationOnScroll } from 'react-animation-on-scroll'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { SubHeading } from '../../components'
 import { images } from '../../constants'
-import styles from './FindUs.module.css'
-import React from 'react'
+import styles from './Contacts.module.css'
 
 function FindUs() {
   return (
     <AnimationOnScroll animateIn='animate__fadeInLeftBig' duration='1.5'>
       <div className={`wrapper ${styles.section_padding_custom}`} id='contacts'>
         <div className={`wrapper_info' ${styles.wrapper_info_custom}`}>
-          <SubHeading title='Contacts us' />
+          <SubHeading title='Contacts' />
           <h1 className={`headtext ${styles.headtext_custom}`}>
             How to find us
           </h1>
           <div className='wrapper_content'>
             <p className={`p_description ${styles.p_description_special}`}>
-              27 Tsocha Str. Ampelokipi, Athens
+              Center str, Athens, Greece
             </p>
-            <p className='p_description'>Information: +30 2106941000</p>
-            <p className='p_description'>Reservation: +30 2106941010</p>
+            <p className='p_description'>Information: +30 210001000</p>
+            <p className='p_description'>Reservation: +30 2100001010</p>
             <p className={`p_description ${styles.p_description_custom}`}>
               Opening hours:
             </p>

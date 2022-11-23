@@ -1,28 +1,7 @@
 import { MdOutlineRestaurantMenu } from 'react-icons/md'
+import { data } from '../../constants'
 import images from '../../constants/images'
 import styles from './Reservation.module.css'
-
-const reserveDays = [
-  'Select day',
-  'Sunday',
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
-]
-
-const reserveHours = [
-  'Select hour',
-  '10:00',
-  '12:00',
-  '16:00',
-  '14:00',
-  '18:00',
-  '20:00',
-  '22:00',
-]
 
 function Reservation(props) {
   function cancelHandler() {
@@ -51,14 +30,14 @@ function Reservation(props) {
             <form action=''>
               <div className={styles.card_form_row}>
                 <select name='days'>
-                  {reserveDays.map((day, index) => (
+                  {data.reserveDays.map((day, index) => (
                     <option value={day} key={index}>
                       {day}{' '}
                     </option>
                   ))}
                 </select>
                 <select name='hours'>
-                  {reserveHours.map((hour, index) => (
+                  {data.reserveHours.map((hour, index) => (
                     <option value={hour} key={index + 1}>
                       {hour}
                     </option>

@@ -2,8 +2,9 @@ import { Newsletter } from '../../components'
 import { FiFacebook, FiInstagram } from 'react-icons/fi'
 import { FaTripadvisor } from 'react-icons/fa'
 import { BsStars } from 'react-icons/bs'
-import styles from './Footer.module.css'
 import { images } from '../../constants'
+import styles from './Footer.module.css'
+
 
 function Footer() {
   return (

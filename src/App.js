@@ -8,11 +8,10 @@ import {
   Intro,
   Events,
   Menu,
-} from './container'
+} from './pages'
 import { Navbar } from './components'
 import { ScrollToTop } from './components'
 import 'animate.css/animate.min.css'
-import './App.css'
 
 const App = () => (
   <>

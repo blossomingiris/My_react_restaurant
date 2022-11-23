@@ -111,13 +111,13 @@
   .footer {
     padding: 0 0 2rem 0;
   }
-}
 
-@media screen and (max-width: 350px) {
   .footer_links {
     margin-top: 0;
   }
+}
 
+@media screen and (max-width: 350px) {
   .footer_links_icons img {
     width: 80%;
   }

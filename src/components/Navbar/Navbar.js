@@ -21,7 +21,7 @@ function Navbar() {
         <img src={images.erato} alt='restaurant logo' />
       </div>
       <ul className={styles.navbar_links}>
-        <li className={styles.p_discription_custom}>
+        <li className={styles.p_description_custom}>
           <Link
             activeClass='active'
             to='home'
@@ -33,7 +33,7 @@ function Navbar() {
             Home
           </Link>
         </li>
-        <li className={styles.p_discription_custom}>
+        <li className={styles.p_description_custom}>
           <Link
             activeClass='active'
             to='about'
@@ -45,7 +45,7 @@ function Navbar() {
             About us
           </Link>
         </li>
-        <li className={styles.p_discription_custom}>
+        <li className={styles.p_description_custom}>
           <Link
             activeClass='active'
             to='menus'
@@ -57,7 +57,7 @@ function Navbar() {
             Menus
           </Link>
         </li>
-        <li className={styles.p_discription_custom}>
+        <li className={styles.p_description_custom}>
           <Link
             activeClass='active'
             to='events'
@@ -69,7 +69,7 @@ function Navbar() {
             Events
           </Link>
         </li>
-        <li className={styles.p_discription_custom}>
+        <li className={styles.p_description_custom}>
           <Link
             activeClass='active'
             to='gallery'
@@ -85,7 +85,7 @@ function Navbar() {
       <div className={styles.navbar_contacts}>
         <a
           href='#reservation'
-          className={styles.p_discription_custom}
+          className={styles.p_description_custom}
           onClick={() => setToggleReservation(true)}
         >
           Reservation
@@ -97,9 +97,9 @@ function Navbar() {
           smooth={true}
           offset={130}
           duration={500}
-          className={styles.p_discription_custom}
+          className={styles.p_description_custom}
         >
-          Contact Us
+          Contacts
         </Link>
       </div>
       {toggleReservation ? <Reservation onCancel={closeModalHandler} /> : null}
@@ -120,19 +120,19 @@ function Navbar() {
               <img src={images.erato} alt='restaurant logo' />
             </div>
             <ul className={styles.navbar_smallscreen_links}>
-              <li className='p_discription'>
+              <li className='p_description'>
                 <a href='#home'>Home</a>
               </li>
-              <li className='p_discription'>
+              <li className='p_description'>
                 <a href='#about'>About Us</a>
               </li>
-              <li className='p_discription'>
+              <li className='p_description'>
                 <a href='#menus'>Menus</a>
               </li>
-              <li className='p_discription'>
-                <a href='#events'>Private-Dining</a>
+              <li className='p_description'>
+                <a href='#events'>Events</a>
               </li>
-              <li className='p_discription'>
+              <li className='p_description'>
                 <a href='#gallery'>Gallery</a>
               </li>
             </ul>

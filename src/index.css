@@ -81,7 +81,7 @@ body {
   width: 90%;
 }
 
-@-webkit-keyframes animatewrapper {
+@-webkit-keyframes animated_wrapper {
   from {
     bottom: -100px;
     opacity: 0;
@@ -92,7 +92,7 @@ body {
   }
 }
 
-@keyframes animatewrapper {
+@keyframes animated_wrapper {
   from {
     bottom: -100px;
     opacity: 0;

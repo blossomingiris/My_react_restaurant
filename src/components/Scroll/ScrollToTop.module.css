@@ -11,9 +11,10 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
+  background: transparent;
 }
 
-.arrow_no_visability {
+.arrow_no_visibility {
   opacity: 0;
 }
 
@@ -30,7 +31,3 @@
   background: var(--color-golden);
   color: var(--color-white);
 }
-
-/* .arrow_icon:hover {
-  color: var(--color-white);
-} */

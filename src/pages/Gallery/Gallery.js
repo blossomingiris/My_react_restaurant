@@ -13,7 +13,6 @@ const gallery = [
   images.gallery05,
   images.gallery06,
   images.gallery07,
-  images.gallery08,
 ]
 
 function Gallery() {

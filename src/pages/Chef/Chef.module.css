@@ -58,4 +58,15 @@
   .chef_sign {
     gap: 1rem;
   }
+
+  .chef_content_quote {
+    align-items: flex-start;
+  }
+
+  .chef_content_quote img {
+    margin: 0 0.5rem 0.5rem 0;
+    width: 40px;
+    height: 30px;
+    justify-self: flex-end;
+  }
 }

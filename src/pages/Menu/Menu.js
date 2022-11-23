@@ -15,7 +15,7 @@ function Menu() {
           <h1 className={`${styles.headtext_custom} headtext`}>
             Today's special menu
           </h1>
-          <p className={styles.p_text}>HAPPY HOUR 14:00pm-18:00pm</p>
+          <p className={styles.p_text}>HAPPY HOURS 14:00pm-18:00pm</p>
         </div>
 
         <div className={styles.menu_description}>
