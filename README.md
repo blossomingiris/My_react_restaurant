@@ -2,7 +2,7 @@
 
 <img src="https://user-images.githubusercontent.com/102720711/187640321-d2f07bed-87c5-4cce-b33a-c1819b15090a.png"/> 
 
-:heavy_check_mark: frontend project built with HTML, CSS and React </br></br>
+:heavy_check_mark: front-end project built with HTML, CSS and React </br></br>
 Extra libraries:  
 - react-leaflet (for interactive map)
 - react-animation-on-scroll (for animation on scroll)
