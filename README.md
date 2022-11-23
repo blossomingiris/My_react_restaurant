@@ -14,6 +14,4 @@ Extra libraries:
 1. Open your terminal and run command "npm install"
 3. Having terminal open run command "npm start"
 
-<img src="https://user-images.githubusercontent.com/102720711/187640321-d2f07bed-87c5-4cce-b33a-c1819b15090a.png"/> 
-
 ### Good appetite!
