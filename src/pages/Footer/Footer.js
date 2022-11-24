@@ -5,7 +5,6 @@ import { BsStars } from 'react-icons/bs'
 import { images } from '../../constants'
 import styles from './Footer.module.css'
 
-
 function Footer() {
   return (
     <div className={styles.footer}>
@@ -51,10 +50,7 @@ function Footer() {
         </div>
       </div>
       <div className={styles.copyright}>
-        <a
-          href='/https://github.com/blossomingiris?tab=repositories'
-          target='_blank'
-        >
+        <a href='https://github.com/blossomingiris' target='_blank'>
           <p>
             Created with <BsStars /> by Xenia Rachouti
           </p>

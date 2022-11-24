@@ -6,7 +6,7 @@ import styles from './Contacts.module.css'
 
 function FindUs() {
   return (
-    <AnimationOnScroll animateIn='animate__fadeInLeftBig' duration='1.5'>
+    <AnimationOnScroll animateIn='animate__fadeInRightBig' duration='1.5'>
       <div className={`wrapper ${styles.section_padding_custom}`} id='contacts'>
         <div className={`wrapper_info' ${styles.wrapper_info_custom}`}>
           <SubHeading title='Contacts' />

@@ -120,20 +120,41 @@ function Navbar() {
               <img src={images.erato} alt='restaurant logo' />
             </div>
             <ul className={styles.navbar_smallscreen_links}>
-              <li className='p_description'>
+              <li
+                className='p_description'
+                onClick={() => setToggleMenu(false)}
+              >
                 <a href='#home'>Home</a>
               </li>
-              <li className='p_description'>
+              <li
+                className='p_description'
+                onClick={() => setToggleMenu(false)}
+              >
                 <a href='#about'>About Us</a>
               </li>
-              <li className='p_description'>
+              <li
+                className='p_description'
+                onClick={() => setToggleMenu(false)}
+              >
                 <a href='#menus'>Menus</a>
               </li>
-              <li className='p_description'>
+              <li
+                className='p_description'
+                onClick={() => setToggleMenu(false)}
+              >
                 <a href='#events'>Events</a>
               </li>
-              <li className='p_description'>
+              <li
+                className='p_description'
+                onClick={() => setToggleMenu(false)}
+              >
                 <a href='#gallery'>Gallery</a>
+              </li>
+              <li
+                className='p_description'
+                onClick={() => setToggleMenu(false)}
+              >
+                <a href='#contacts'>Contacts</a>
               </li>
             </ul>
           </div>

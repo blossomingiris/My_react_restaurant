@@ -197,7 +197,7 @@
 }
 
 .p_description_custom {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   cursor: pointer;
 }
@@ -237,8 +237,8 @@
     width: 100%;
   }
 
-  .p_discription_custom {
-    font-size: 14px;
+  .p_description_custom {
+    font-size: 0.75em;
   }
 
   .navbar_contacts a {

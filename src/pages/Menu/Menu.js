@@ -5,7 +5,7 @@ import styles from './Menu.module.css'
 
 function Menu() {
   return (
-    <AnimationOnScroll animateIn='animate__fadeInLeftBig' duration='1.5'>
+    <AnimationOnScroll animateIn='animate__fadeInRightBig' duration='1.5'>
       <div className={`${styles.menu} flex_center section_padding`} id='menus'>
         <div className={styles.img_wine}>
           <img src={images.wine} alt='bottle_of_wine' />

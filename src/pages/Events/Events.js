@@ -10,7 +10,7 @@ import styles from './Events.module.css'
 
 function Events() {
   return (
-    <AnimationOnScroll animateIn='animate__fadeInLeftBig' duration='1.5'>
+    <AnimationOnScroll animateIn='animate__fadeInRightBig' duration='1.5'>
       <div
         className={`wrapper section_padding ${styles.wrapper_custom}`}
         id='events'
