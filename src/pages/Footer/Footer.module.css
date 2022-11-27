@@ -91,6 +91,8 @@
   margin-top: 0.5rem;
   font-size: 16px;
   letter-spacing: 0.04em;
+  display: flex;
+  justify-items: center;
 }
 
 @media screen and (max-width: 1150px) {
