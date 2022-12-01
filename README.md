@@ -6,9 +6,9 @@
 - HTML
 - CSS
 - React.js
-- react-leaflet (for interactive map)
-- react-animation-on-scroll (for animation on scroll)
-- swiper (for carousel gallery in evets section)</br>
+- React-leaflet (for interactive map)
+- React-animation-on-scroll (for animation on scroll)
+- Swiper (for carousel gallery in evets section)</br>
 
 ## Demo: 
  [Here](https://blossomingiris.github.io/React-Website/)</br>
